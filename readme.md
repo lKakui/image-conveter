@@ -1,16 +1,18 @@
-# Image Processing Filters in C using Threads
+# Image Processing Filters in C using OpenMP
 
 > **Note for International Recruiters:** This project was developed as a university assignment. The original project requirements and guidelines in Portuguese can be found at the bottom of this file.
 
-A high-performance C application designed to apply computational filters to images utilizing multi-threading for optimized processing speed.
+A high-performance C application designed to apply computational filters (like blur, grayscale, or edge detection) to images utilizing OpenMP for shared-memory parallel processing.
 
 ## 🛠️ Features & Technical Highlights
-- **Multi-threading:** Implemented using POSIX threads (`pthreads`) to parallelize pixel processing across multiple CPU cores.
-- **Memory Optimization:** Efficient heap memory allocation and pixel manipulation directly in memory buffers.
+- **OpenMP Parallelism:** Implemented multi-core CPU acceleration using OpenMP directives to efficiently distribute pixel processing workloads across threads.
+- **Memory Optimization:** Optimized memory access patterns and heap management for continuous pixel manipulation inside image buffers.
+- **Performance Focused:** Designed to analyze speedup and execution time reductions when processing high-resolution media.
 
 ## 💻 Tech Stack
 - **Language:** C
-- **Concepts:** Parallel Computing, Concurrency, Image Processing
+- **Libraries/APIs:** OpenMP
+- **Concepts:** Parallel Computing, Shared-Memory Concurrency, Performance Benchmarking, Image Processing
 
 ---
 
