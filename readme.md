@@ -1,4 +1,22 @@
-# Processador de Imagens: Filtro de Mediana, Tons de Cinza e Equalização de Histograma
+# Image Processing Filters in C using Threads
+
+> **Note for International Recruiters:** This project was developed as a university assignment. The original project requirements and guidelines in Portuguese can be found at the bottom of this file.
+
+A high-performance C application designed to apply computational filters to images utilizing multi-threading for optimized processing speed.
+
+## 🛠️ Features & Technical Highlights
+- **Multi-threading:** Implemented using POSIX threads (`pthreads`) to parallelize pixel processing across multiple CPU cores.
+- **Memory Optimization:** Efficient heap memory allocation and pixel manipulation directly in memory buffers.
+
+## 💻 Tech Stack
+- **Language:** C
+- **Concepts:** Parallel Computing, Concurrency, Image Processing
+
+---
+
+## 📝 Regras do Projeto (Original University Guidelines)
+
+## Processador de Imagens: Filtro de Mediana, Tons de Cinza e Equalização de Histograma
 
 O objetivo deste projeto é desenvolver um programa que processa uma imagem no formato BMP 24 bits, aplicando um fluxo de tratamento para melhorar sua qualidade, especialmente em imagens com ruído.
 
